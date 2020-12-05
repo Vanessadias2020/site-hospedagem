@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    font-family: "Noto Sans JP";
+    color: white;
+}
+
+body{
+    background: url(../images/fundo.jpg);
+    background-size: cover;
+}
+
+li{
+    display: inline;
+    padding: 15px;
+}
+
+.ativo{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 6px 16px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho img{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.cabecalho ul{
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 15px;
+    font-size: 15px;
+}
+
+.cabecalho a:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 6px 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;  
+    background: white;        
+}
+
+.conteudo{
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.titulo{
+    font-size: 55px;
+    padding-top: 17%;
+}
+
+.video{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 25px;
+    color: white;
+}
+
+.saiba-mais{
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 25px;
+    color: white;
+}
