@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    font-family: Trebuchet MS;
+    Color: white;
+}
+
+body{
+    background: url(../imagem/fundo.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.conteudo-principal{
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    padding-top: -50%;
+}
+
+.titulo{
+    font-size: 60px;
+    padding-top: 15%;
+    margin-bottom: 25px;
+}
+
+
+.logo{
+    text-align:left;
+}
+
+.menu-superior{
+    position: absolute;
+    font-size: 5px;
+    bottom: 600px;
+    left: 750px;
+    letter-spacing: 1px;
+    word-spacing: 18px;
+}
+
+.menu-superior ul li{
+    list-style: none;
+    display: inline;
+    font-size: 17px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 5px 18px;
+}
+
+ul li:hover{
+    color: black;
+    background: white;
+}
+
+.video{
+    display: inline;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 8px 30px;
+}
+
+.video:hover{
+    color: black;
+    background: white;
+}
+
+.leia-mais{
+    display: inline;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 8px 30px;
+}
+
+.leia-mais:hover{
+    color: black;
+    background: white;
+}
+   
